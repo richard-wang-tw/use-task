@@ -1,6 +1,6 @@
 {
   "name": "@richard-wang-tw/use-task",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "This is a customized react hook that makes it easy to combine task(lazy promise) with react suspense",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
