@@ -10,7 +10,7 @@ type TaskCache = {
 
 type TaskCacheRecord = Record<string, TaskCache>;
 
-type UseTaskInput<Result> = {
+export type UseTaskInput<Result> = {
   id: string;
   task: T.Task<Result>;
 };
