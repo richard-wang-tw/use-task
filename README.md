@@ -41,13 +41,13 @@ const Title = () => {
 
 ### Wrap the component with `<suspense>`
 
-    ```tsx
-    const TitleLoader = () => (
-      <Suspense fallback={<h1>Loading</h1>}>
-        <Title />
-      </Suspense>
-    );
-    ```
+```tsx
+const TitleLoader = () => (
+  <Suspense fallback={<h1>Loading</h1>}>
+    <Title />
+  </Suspense>
+);
+```
 
 ## deleteTaskCache
 
